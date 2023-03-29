@@ -1,0 +1,107 @@
+<html>
+    <p class="info">
+        <a href="">Home</a>
+        &nbsp
+        <a href="">Footer</a>
+        &nbsp
+        <a href="">About Us</a>
+    </p>
+
+    <div class="top">
+        <h1 align="center">
+            <img src="E:\html/dsp3.png" height="100px" width="150px">
+            tHE lOCAL bROKER
+        </h1>
+    </div>
+
+    <form>
+        <div class="box1">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+      
+        <div class="box1">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+
+      <style>
+        body{
+            background-color: lightgray;
+        }
+
+        .info{
+            text-align: right;
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .top {
+            font-size: 50px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            border: 2px black;
+            background-color: skyblue;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            opacity: 0.7;
+            font-weight: bold;
+        }
+
+        .frm{
+            padding-top: 25px;
+            padding-bottom: 30px;
+            width: 600px;
+            height: 230px;
+            /* margin-top: 100px;
+            margin-left: 600px; */
+        }
+
+        form {
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            padding: 20px;
+            width: 300px;
+            align-items: center;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            border-radius: 5px;
+            border: none;
+            height: 35px;
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            height: 40px;
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        .box1 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      </style>
+</html>
